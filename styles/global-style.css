@@ -1,4 +1,10 @@
+@font-face {
+    font-family: "Whitney Book";
+    src: url("../fonts/whitney-book.otf");
+}
+
 body {
     background-color: #1b1d1e;
     color: #f3f4f5;
+    font-family: "Whitney Book";
 }
