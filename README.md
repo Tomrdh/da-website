@@ -1,3 +1,3 @@
 <h1 align="center">
-    <a href="https://discordaddons.com">Click here</a>
+    <a href="https://tomrdh.github.io/da-website/main">Click here</a>
 </h1>
