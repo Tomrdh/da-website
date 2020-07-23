@@ -51,9 +51,34 @@ li {
     margin-top: 0.3em;
 }
 
-h2, p, li {
+h2, p, li, img {
     margin-left: 9%;
     margin-right: 9%;
+}
+
+img {
+    margin-top: 1.3em;
+    margin-bottom: 1.3em;
+    border-radius: 0.3em;
+}
+
+.preview-changes {
+    border-radius: 0.8em;
+    width: 10%;
+    height: 10%;
+    transition: 500ms;
+}
+
+.preview-changes:hover {
+    margin-top: 1em;
+    margin-bottom: 1.3em;
+    border-radius: 0.3em;
+    width: 91%;
+    height: 91%;
+    margin-left: 0;
+    margin-right: 0;
+    transition: 0.5s;
+    cursor: zoom-in;
 }
 
 code, pre {
