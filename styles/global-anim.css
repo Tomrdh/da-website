@@ -133,7 +133,7 @@ red-word {
     50% { color: var(--blurple); }
     100%{ color: var(--bd-blue); }
 }
-.text-animated-blue, a {
+.text-animated-blue, a, animated-blue-word {
     color: var(--bd-blue);
     animation: animated-blue 5s linear infinite;
 }
