@@ -33,6 +33,7 @@
 /* Style */
 * {
     margin: 0;
+    text-shadow: 0.1em 0.1em 0.2em #00000060;
 }
 body {
     background-color: var(--background-1);
@@ -45,6 +46,10 @@ header {
     background: linear-gradient(120deg, #0d2c4b, #0f4d2e);
     padding: 3em;
     display: block;
+}
+
+header, footer {
+    box-shadow: 0 0 0.5em #000000d0;
 }
 
 li {
@@ -61,7 +66,7 @@ figcaption {
     text-align: center;
     color: var(--text-color-3);
     font-style: italic;
-    font-size: 12px;
+    font-size: 0.8em;
     padding-bottom: 1.6em;
 }
 
@@ -78,38 +83,37 @@ img:hover {
 }
 
 .preview-changes, .preview {
-    border-radius: 0.5em;
-    width: 10%;
-    height: 10%;
-    cursor: zoom-in;
-}
-
-.preview-changes:active, .preview:active {
     margin-top: 1em;
     margin-bottom: 1.3em;
-    border-radius: 0.3em;
-    width: 75%;
-    height: 75%;
+    border-radius: 0.5em;
+    width: unset;
+    height: unset;
+    max-width: 75%;
+    max-height: 75%;
     margin-left: 2%;
     margin-right: 2%;
     cursor: none;
 }
 
+.preview-changes:hover, .preview:hover {
+    border-radius: 0.3em;
+}
+
 code, pre {
     font-family: "OCR A";
-    font-size: 11px;
+    font-size: 0.75em;
 }
 code.inline {
     background-color: #202225;
     border-style: solid;
     border-color: #363651;
     border-width: 1px;
-    border-radius: 2px;
+    border-radius: 3px;
     margin: 1px;
-    padding-left: 3px;
-    padding-right: 3px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    padding-top: 0.15em;
+    padding-bottom: 0.15em;
 }
 pre {
     text-align: left;
@@ -146,7 +150,7 @@ h2 {
 
 footer {
     margin-top: 1em;
-    font-size: 12px;
+    font-size: 0.7em;
     background: linear-gradient(120deg, #0d2c4b, #0f4d2e);
     padding-top: 1.2em;
     padding-bottom: 1.2em;
@@ -173,7 +177,7 @@ strong {
 }
 
 p {
-    line-height: 24px;
+    line-height: 1.5em;
 }
 .text-green {
     color: var(--green-1);
@@ -206,15 +210,18 @@ button {
     margin: 0.3em;
     padding: 0.7em;
     transition: 500ms;
+    box-shadow: 0 0 0.3em #00000060;
 }
 button:hover{
     cursor: pointer;
+    box-shadow: 0 0 0.6em #00000060;
 }
 /* Button styles */
 .green-button {
     background-color: #27ff400c;
     border-color: var(--green);
     color: var(--green);
+    text-shadow: 0 0 0.2em #0f4d2e;
 }
 .green-button:hover {
     background-color: #27ff803d;
@@ -224,6 +231,7 @@ button:hover{
     background-color: #2768ff0c;
     border-color: var(--bd-blue);
     color: var(--bd-blue);
+    text-shadow: 0 0 0.2em #0f284d;
 }
 .blue-button:hover {
     background-color: #278cff3d;
