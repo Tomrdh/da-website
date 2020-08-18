@@ -41,17 +41,14 @@ body {
     font-family: var(--fonts);
     text-align: center;
 }
-
 header {
     background: linear-gradient(120deg, #0d2c4b, #0f4d2e);
     padding: 3em;
     display: block;
 }
-
 header, footer {
     box-shadow: 0 0 0.5em #000000d0;
 }
-
 li {
     text-align: left;
     margin-top: 0.3em;
@@ -61,7 +58,6 @@ h2, p, li, img, figcaption {
     margin-left: 9%;
     margin-right: 9%;
 }
-
 figcaption {
     text-align: center;
     color: var(--text-color-3);
@@ -82,21 +78,40 @@ img:hover {
     transition: 500ms;
 }
 
-.preview-changes, .preview {
+.preview {
     margin-top: 1em;
     margin-bottom: 1.3em;
     border-radius: 0.5em;
     width: unset;
     height: unset;
-    max-width: 75%;
-    max-height: 75%;
-    margin-left: 2%;
-    margin-right: 2%;
+    max-width: 30vw;
+    max-height: 30vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    cursor: zoom-in;
+}
+.preview:active {
+    border-radius: 0.3em;
+    max-width: 80vw;
+    max-height: 80vw;
     cursor: none;
 }
 
-.preview-changes:hover, .preview:hover {
+.preview-changes {
+    margin-top: 1em;
+    margin-bottom: 1.3em;
+    border-radius: 0.5em;
+    width: unset;
+    height: unset;
+    max-width: 10vw;
+    max-height: 10vw;
+    cursor: zoom-in;
+}
+.preview-changes:active {
     border-radius: 0.3em;
+    max-width: 70vw;
+    max-height: 70vw;
+    cursor: none
 }
 
 code, pre {
