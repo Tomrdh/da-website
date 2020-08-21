@@ -9,6 +9,7 @@
     --green: var(--green-1);
     --green-1: #4cba84;
     --green-2: #61ffb3;
+    --grey: #515254;
     --background: var(--background-1);
     --background-1: #1b1d1e;
     --fonts: "Whitney Book", sans-serif;
@@ -334,4 +335,7 @@ green-word {
 }
 yellow-word {
     color: #ffff00;
+}
+grey-word {
+    color: var(--grey);
 }
