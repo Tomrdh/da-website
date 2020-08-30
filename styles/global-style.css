@@ -55,7 +55,7 @@ li {
     margin-top: 0.3em;
 }
 
-h1, h2, p, li, img, figcaption {
+* {
     margin-left: 9vw;
     margin-right: 9vw;
 }
