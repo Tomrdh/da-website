@@ -2,7 +2,7 @@
     --hb-color-1: #0d2c4b;
     --hb-color-2: #116139;
 }
-@keyframes header-background {
+/* @keyframes header-background {
     0%   { background: linear-gradient(120deg, var(--hb-color-1), var(--hb-color-2)); }
     1%   { background: linear-gradient(123deg, var(--hb-color-1), var(--hb-color-2)); }
     2%   { background: linear-gradient(127deg, var(--hb-color-1), var(--hb-color-2)); }
@@ -104,11 +104,12 @@
     98%  { background: linear-gradient(112deg, var(--hb-color-1), var(--hb-color-2)); }
     99%  { background: linear-gradient(116deg, var(--hb-color-1), var(--hb-color-2)); }
     100% { background: linear-gradient(120deg, var(--hb-color-1), var(--hb-color-2)); }
-} /*  If you know another way instead of using every percents, tell me it in my Discord server or in DM. Thanks! */
-header, footer {
-    animation: header-background 14.7s infinite;
-    animation-timing-function: linear;
-}
+} Disabled, but if you know another way instead of using every percents, tell me it in my Discord server or in DM. Thanks! */
+/*header, footer {
+    animation: header-background 4s;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}*/
 
 @keyframes spawn {
     0%  { opacity: 0; }
@@ -119,21 +120,29 @@ body {
     animation: spawn 2s ease-out !important;
 }
 
-@keyframes red-word {
+/*@keyframes red-word {
     0%  { color: #ff0000; }
     50% { color: #ff3434; }
     100%{ color: #ff0000; }
-}
+}*/
 red-word {
-    animation: red-word 5s linear infinite;
+    color: #ff2020;
+    /*animation: red-word 5s linear infinite;*/
 }
 
-@keyframes animated-blue {
+/*@keyframes animated-blue {
     0%  { color: var(--bd-blue); }
     50% { color: var(--blurple); }
     100%{ color: var(--bd-blue); }
-}
+}*/
 .text-animated-blue, a, animated-blue-word {
     color: var(--bd-blue);
-    animation: animated-blue 5s linear infinite;
+    /*animation: animated-blue 5s linear infinite;*/
+}
+
+@keyframes scroll-down-spawn {
+    
+}
+#scroll-down-text {
+    animation: scroll-down-spawn 3s ease-out;
 }
