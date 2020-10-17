@@ -224,6 +224,9 @@ p {
 .text-blurple-important {
     color: var(--blurple) !important;
 }
+.text-red {
+    color: #f00;
+}
 
 a code {
     cursor: pointer;
