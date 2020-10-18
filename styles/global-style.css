@@ -29,7 +29,7 @@
 
 @font-face {
     font-family: "OCR A";
-    src: url(../fonts/ocr-a.ttf);
+    src: url(../fonts/OCRAEXT.TTF);
 }
 /* Properties for hX */
 h1 {
@@ -134,12 +134,12 @@ code, pre {
     font-size: 0.75em;
 }
 code.inline {
+    display: inline-block;
     background-color: #202225;
     border-style: solid;
-    border-color: #363651;
+    border-color: #2c2c3f;
     border-width: 1px;
     border-radius: 3px;
-    margin: 1px;
     padding-left: 0.2em;
     padding-right: 0.2em;
     padding-top: 0.15em;
@@ -203,9 +203,9 @@ strong {
     font-family: "Whitney Book Bold";
 }
 
-p {
+/*p {
     line-height: 1.5em;
-}
+}*/
 .text-green {
     color: var(--green-1);
 }
