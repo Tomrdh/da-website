@@ -227,6 +227,9 @@ strong {
 .text-red {
     color: #f00;
 }
+.text-grey {
+    color: var(--grey);
+}
 
 a code {
     cursor: pointer;
