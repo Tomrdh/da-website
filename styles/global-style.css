@@ -25,7 +25,6 @@
     font-family: "Whitney Book Bold";
     src: url(../fonts/whitney-bold.otf);
 }
-
 @font-face {
     font-family: "OCR A";
     src: url(../fonts/OCRAEXT.TTF);
@@ -76,13 +75,6 @@ figcaption {
     margin-left: 9vw;
     margin-right: 9vw;
 }
-figcaption {
-    text-align: center;
-    color: var(--text-color-3);
-    font-style: italic;
-    font-size: 0.8em;
-    padding-bottom: 1.6em;
-}
 img {
     margin-top: 1.3em;
     margin-bottom: 1.3em;
@@ -128,6 +120,13 @@ img:hover {
     max-height: 75vw;
     cursor: none
 }
+figcaption {
+    text-align: center;
+    color: var(--text-color-3);
+    font-style: italic;
+    font-size: 0.8em;
+    padding-bottom: 1.6em;
+}
 code,
 pre {
     font-family: var(--fonts-mono);
@@ -172,7 +171,8 @@ h1 a:visited {
 }
 h2 {
     color: var(--green);
-    font-weight: 100;
+    font-weight: 900;
+    font-family: var(--fonts-bold);
     margin-top: 1.2em;
     margin-bottom: 1.2em;
     padding-bottom: 0.3em;
