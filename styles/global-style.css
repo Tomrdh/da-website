@@ -16,7 +16,6 @@
     --fonts-bold: "Whitney Book Bold", "Whitney Book", sans-serif;
     --fonts-mono: "OCR A", monospace;
 }
-
 /* Fonts list */
 @font-face {
     font-family: "Whitney Book";
@@ -60,7 +59,6 @@ header {
     padding-bottom: 10vh;
     min-height: 82vh;
 }
-
 header, footer {
     box-shadow: 0 0 0.5em #000000d0;
 }
@@ -68,8 +66,13 @@ li {
     text-align: left;
     margin-top: 0.3em;
 }
-
-h1, h2, h3, p, li, img, figcaption {
+h1,
+h2,
+h3,
+p,
+li,
+img,
+figcaption {
     margin-left: 9vw;
     margin-right: 9vw;
 }
@@ -80,7 +83,6 @@ figcaption {
     font-size: 0.8em;
     padding-bottom: 1.6em;
 }
-
 img {
     margin-top: 1.3em;
     margin-bottom: 1.3em;
@@ -92,7 +94,6 @@ img:hover {
     box-shadow: 0 0 0.8em 0 #111;
     transition: 500ms;
 }
-
 .preview {
     margin-top: 1em;
     margin-bottom: 1.3em;
@@ -111,7 +112,6 @@ img:hover {
     max-height: 80vw;
     cursor: none;
 }
-
 .preview-changes {
     margin-top: 1em;
     margin-bottom: 1.3em;
@@ -128,8 +128,8 @@ img:hover {
     max-height: 75vw;
     cursor: none
 }
-
-code, pre {
+code,
+pre {
     font-family: var(--fonts-mono);
     font-size: 0.75em;
 }
@@ -162,15 +162,14 @@ pre {
     outline-width: 1px;
     -moz-outline-radius: 0.3em;
 }
-
 h1 {
     color: var(--green-2);
 }
 
-h1 a, h1 a:visited {
+h1 a,
+h1 a:visited {
     color: var(--bd-blue);
 }
-
 h2 {
     color: var(--green);
     font-weight: 100;
@@ -178,7 +177,6 @@ h2 {
     margin-bottom: 1.2em;
     padding-bottom: 0.3em;
 }
-
 footer {
     margin-top: 1em;
     font-size: 0.7em;
@@ -187,8 +185,9 @@ footer {
     padding-bottom: 1.2em;
     line-height: 1.7em;
 }
-
-a, a:active, a:visited {
+a,
+a:active,
+a:visited {
     color: var(--bd-blue);
     text-decoration: none;
     transition: 100ms;
@@ -198,11 +197,9 @@ a:hover {
     text-decoration: underline;
     color: var(--blurple);
 }
-
 strong {
     font-family: "Whitney Book Bold";
 }
-
 /*p {
     line-height: 1.5em;
 }*/
@@ -230,15 +227,12 @@ strong {
 .text-grey {
     color: var(--grey);
 }
-
 a code {
     cursor: pointer;
 }
-
 .board {
     text-align: center;
 }
-
 /* div */
 .header-secondary-title {
     font-size: 32px;
@@ -247,7 +241,11 @@ a code {
     padding-top: 16px;
     padding-bottom: 16px;
 }
-
+.header-in-list {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--fonts-bold);
+}
 /* Buttons */
 button {
     border-style: solid;
@@ -301,7 +299,6 @@ button:hover{
 #first-body-header {
     margin-top: 1.2em;
 }
-
 /* Head logo img */
 #head-logo {
     width: 192px;
@@ -323,17 +320,14 @@ button:hover{
     width: 12px;
     height: 12px;
 }
-
 /* Track */
 ::-webkit-scrollbar-track {
     background: #202225;
 }
-
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: #313336;
 }
-
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #424447;
@@ -342,7 +336,6 @@ button:hover{
 ::-webkit-scrollbar-corner {
     background: transparent;
 }
-
 /* Text selection */
 ::-moz-selection {
     color: var(--green-2);
@@ -352,7 +345,6 @@ button:hover{
     color: var(--green-2);
     background: var(--blurple);
 }
-
 /* Unknown tags */
 
 green {
@@ -363,33 +355,32 @@ itc, quote {
     font-style: italic;
     font-weight: 300;
 }
-
 changelogs {
     text-align: left;
 }
-
 previews {
     text-align: justify;
 }
-
-red-word {
+red-word,
+text-red {
     color: #ff0000;
 }
-green-word {
+green-word,
+text-green {
     color: var(--green-2);
 }
-yellow-word {
+yellow-word,
+text-yellow {
     color: #ffff00;
 }
-grey-word {
+grey-word,
+text-grey {
     color: var(--grey);
 }
-
 hide {
     color: #0000 !important;
     text-shadow: none !important;
 }
-
 font-size-5 {
     font-size: 5px;
 }
