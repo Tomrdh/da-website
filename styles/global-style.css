@@ -238,6 +238,7 @@ a code {
 .header-secondary-title {
     font-size: 32px;
     font-family: var(--fonts-bold);
+    font-weight: 900;
     color: var(--green-2);
     padding-top: 16px;
     padding-bottom: 16px;
@@ -253,6 +254,7 @@ button {
     border-width: 1px;
     border-radius: 3px;
     font-family: var(--fonts-bold);
+    font-weight: 900;
     font-size: 1.3em;
     margin: 0.3em;
     padding: 0.7em;
