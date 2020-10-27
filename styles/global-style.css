@@ -10,6 +10,10 @@
     --green-1: #4cba84;
     --green-2: #61ffb3;
     --grey: #515254;
+    --yellow: var(--yellow-1);
+    --yellow-1: #ff0;
+    --yellow-2: #cdb615;
+    --orange: #f80;
     --background: var(--background-1);
     --background-1: #1b1d1e;
     --fonts: "Whitney Book", sans-serif;
@@ -227,6 +231,15 @@ strong {
 }
 .text-grey {
     color: var(--grey);
+}
+.text-yellow {
+    color: var(--yellow);
+}
+.text-yellow-2 {
+    color: var(--yellow-2);
+}
+.text-orange {
+    color: var(--orange);
 }
 a code {
     cursor: pointer;
