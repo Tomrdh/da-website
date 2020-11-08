@@ -270,6 +270,7 @@ button {
     font-weight: 900;
     font-size: 1.3em;
     margin: 0.3em;
+    margin-top: 1em;
     padding: 0.7em;
     transition: 500ms;
     box-shadow: 0 0 0.3em #00000060;
@@ -289,7 +290,6 @@ button:hover{
 .green-button:hover {
     background-color: #27ff803d;
 }
-
 .blue-button {
     background-color: #2768ff0c;
     border-color: var(--bd-blue);
@@ -299,7 +299,6 @@ button:hover{
 .blue-button:hover {
     background-color: #278cff3d;
 }
-
 .disabled-button {
     background-color: #27292c0c;
     border-color: #ffffff40;
@@ -307,11 +306,11 @@ button:hover{
     text-shadow: 0 0 0.2em #0f1011;
     cursor: not-allowed;
     font-family: var(--fonts);
+    font-weight: 500;
 }
 .disabled-button:hover {
     background-color: #27292c1f;
 }
-
 #first-body-header {
     margin-top: 1.2em;
 }
@@ -379,7 +378,7 @@ previews {
 }
 red-word,
 text-red {
-    color: #ff0000;
+    color: #f00;
 }
 green-word,
 text-green {
@@ -387,7 +386,7 @@ text-green {
 }
 yellow-word,
 text-yellow {
-    color: #ffff00;
+    color: #ff0;
 }
 grey-word,
 text-grey {

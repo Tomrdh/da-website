@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Last Changelogs - Discord Addons</title>
+        <link rel="stylesheet" href="styles/global-style.css" /> <!-- Global Style -->
+        <link rel="stylesheet" href="styles/global-anim.css" /> <!-- Global Animations -->
+        <link rel="shortcut icon" type="image/x-icon" href="ico/da-plus-2.ico" /> <!-- Favicon -->
+    </head>
+    <body>
+        <header>
+            <h1><strong>Last Changelogs - <a href="main.html" title="Back to main page">Discord Addons</a></strong></h1>
+            <a href="https://discord.gg/v7ECsqT" target="_blank"><img src="ico/da-plus.ico" title="Join Discord Server" alt="DiscordServerIcon.png" id="head-logo"/></a>
+            <p>Changelogs, initials, status and build numbers for all addons.</p>
+            <!-- Navigation -->
+            <div class="header-secondary-title">Navigation</div>
+            <a href="main.html"><button class="green-button">Main</button></a>
+            <a href="changelogs.html"><button class="disabled-button">Changelogs</button></a>
+            <a href="themes.html"><button class="green-button">View Themes</button></a>
+            <a href="other.html"><button class="green-button">View Other Styles</button></a>
+            <!-- External Links -->
+            <div class="header-secondary-title text-blue-important">External Links</div>
+            <a href="https://rauenzi.github.io/BetterDiscordApp/" target="_blank"><button class="blue-button">Download BetterDiscord</button></a>
+            <a href="https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne" target="_blank"><button class="blue-button">Install Stylus (Chrome)</button></a>
+            <a href="https://github.com/Tomrdh/discord-addons" target="_blank"><button class="blue-button">GitHub Repository</button></a>
+            <a href="https://github.com/Tomrdh/discord-addons/wiki/Find-and-download-your-themes" target="_blank"><button class="blue-button">Read this wiki</button></a>
+        </header>
+        <bdy>
+            <h2 class="text-green"><strong>Changelogs Navigation</strong></h2>
+            <p>Last changelogs also contains build numbers board.</p>
+            <button class="disabled-button">Last changelogs</button>
+            <a href="changelogs-full.html"><button class="green-button">Full old changelogs</button></a>
+            <h2 class="text-blue" id="first-body-header">Build numbers</h2>
+            <p>Useful to know the last theme build and the last update date, in case you have issues and you want to check if you have to reload Discord or your browser.</p>
+            <a href="#build-numbers"><button class="blue-button">See build numbers</button></a>
+            <h2 class="text-blue">Last Changelogs</h2>
+            <p>Initials are used. For example <code class="inline">ADT</code> means <code class="inline">AmoledDarkTheme</code>. See the list of initials, build numbers and others <a href="#build-numbers">at the bottom</a>. Another example, <code class="inline">ADT:123</code> means <code class="inline">AmoledDarkTheme build 123</code>. Note that the theme version is not the same as the imported build version.</p>
+            <changelogs>
+                <!-- CHANGETYPELIST
+                <strong class="text-green-2">NEW!</strong> 
+                <strong class="text-red">DEAD.</strong> 
+                <strong class="text-yellow-2">CHANGED.</strong> 
+                <strong class="text-yellow">FIXED.</strong> 
+                <strong class="text-orange">HARD FIX.</strong> 
+                <strong class="text-blurple">IMPROVED.</strong> 
+                (copy with space)
+                -->
+                <h2>2020-11-08</h2>
+                <ul>
+                    <li>Website - <strong class="text-yellow">FIXED.</strong> Updated links in <a href="themes.html">themes</a> and <a href="other.html">other</a> to match the new repo update. Also updated build numbers board.</li>
+                    <li>Repo - <strong><strong class="text-yellow-2">CHANGED</strong> and <strong class="text-blurple">IMPROVED</strong>.</strong> Organization changed, updates are not required but it's still better for latest support. What changed: Created folders for each themes, where you can download all BetterDiscord, Powercord and Stylus versions. The <code class="inline">nifn</code> folder is discontinued and replaced by <code class="inline">xcores</code>. But don't worry if your themes are still using the old folder, the imported file will import another one.</li>
+                </ul>
+                <h2>2020-11-05</h2>
+                <ul>
+                    <li>UT00AT:6 - <strong class="text-green-2">NEW!</strong> UT All UTilities was finally updated! <a href="https://github.com/Tomrdh/discord-addons/tree/master/download-themes-here/UT00_AllUTilities" target="_blank">Redownload the theme here.</a></li>
+                </ul>
+                <h2>2020-11-03</h2>
+                <ul>
+                    <li>OGGT:46 - <strong class="text-yellow">FIXED.</strong> Fixed new BD stuff style.</li>
+                </ul>
+                <h2>2020-11-02</h2>
+                <ul>
+                    <li>OGGT:45 - <strong class="text-yellow">FIXED.</strong> After a looooong time of waiting since this issue was known, I fixed the roles in the user popout and in the server template preview, and also the "Add role" button. Now everything about that should be correct.</li>
+                </ul>
+                <h2>2020-10-27</h2>
+                <ul>
+                    <li>OGGT:39 - <strong class="text-green-2">NEW!</strong> Quick reminder that the theme no longer animates when the app is unfocused. Now you can fully disable these animations by enabling Reduce Motion in the Appearance settings, even if the app if focused. This option also removes some native Discord animations, if you don't know.</li>
+                    <li>Website - <strong class="text-yellow-2">CHANGED.</strong> Changes that are not important will no longer be displayed in the changelogs page. Sometimes when updating this page, I'm just updating build numbers. Also, I added more colors to this page. :)</li>
+                </ul>
+                <h2>2020-10-24</h2>
+                <ul>
+                    <li>OGGT:33 - <strong class="text-yellow">FIXED.</strong> Fix ChannelTabs style <itc>aaaaggggaaaaiiiinnnn</itc> and channel text area focus effect (because Discord removed a class).</li>
+                </ul>
+                <h2>2020-10-23</h2>
+                <ul>
+                    <li>OGGT:30 - <strong class="text-yellow">FIXED.</strong> ChannelTabs style fix again (new update). Has visual changes.</li>
+                    <li>TATOCB:8 - <strong class="text-yellow">FIXED.</strong> CharCounter style fix.</li>
+                    <li>TS:1 - <strong class="text-green-2">NEW!</strong> Created Theme Support for all my Discord themes.</li>
+                </ul>
+                <h2>2020-10-22</h2>
+                <ul>
+                    <li>OGGT:27 - <strong class="text-green-2">NEW!</strong> <a href="https://github.com/Tomrdh/discord-addons/tree/master/download-themes-here/OperaGxGamingTheme" target="_blank"><strong>Opera GX Gaming Theme</strong></a> has a new local update (v0.0.7), and this new version has more vars:</li>
+                    <ul>
+                        <li><div class="header-in-list text-green-2">Local Updates:</div></li>
+                        <ul>
+                            <li>Now 10 vars in total for ChannelTabs, 5 for tabs and 5 for favs.</li>
+                            <li>Some defaults changed.</li>
+                            <li>Background behind App-Mount: This is the second background if your first background is not loaded. This can avoid screen flashing in light theme or on browser, if your image reloads sometimes.</li>
+                        </ul>
+                        <li><div class="header-in-list text-blue">Build Updates:</div></li>
+                        <ul>
+                            <li>Improved Server Folders and added some effects to Default CircleIcons.</li>
+                            <li>Small Inbox fix.</li>
+                            <li>Supports Server Discovery again.</li>
+                            <li>Modified Chat Top Bar icons and some others.</li>
+                            <li>Fixed DevTags.</li>
+                            <li>Fixed settings background image not working.</li>
+                        </ul>
+                    </ul>
+                    <li>ADT:292 - <strong class="text-yellow">FIXED.</strong> Fix DevTags and Emoji Settings.</li>
+                    <li>ADTO:193 - <strong class="text-yellow">FIXED.</strong> Fix DevTags and Emoji Settings.</li>
+                    <li>Website - <strong class="text-blurple">IMPROVED.</strong> Some more optimizations.</li>
+                </ul>
+                <h2>2020-10-21</h2>
+                <ul>
+                    <li>Repo - <strong class="text-green-2">NEW!</strong> Created a new repo for more themes: <code class="inline"><a href="https://github.com/Tomrdh/stuff" target="_blank">Tomrdh/stuff</a></code>! <yellow-word>Contains warnings</yellow-word>, please read each README.md you find before downloading anything. Not related to Discord Addons, so any changes in this repo won't be displayed in this website. It's just some additional stuff.</li>
+                </ul>
+                <h2>2020-10-19</h2>
+                <ul>
+                    <li>Website - <strong class="text-blurple">IMPROVED.</strong> Updated the OGGT preview in the <a href="themes.html">themes</a> page.</li>
+                    <li>Repo - <strong class="text-blurple">NEW!</strong> Updated <a href="https://github.com/Tomrdh/discord-addons/wiki" target="_blank">the wiki</a>, and added <a href="https://github.com/Tomrdh/discord-addons/wiki/Install-a-theme-on-Powercord" target="_blank">this tutorial</a> to learn how to apply a theme with Powercord.</li>
+                </ul>
+                <h2>2020-10-18</h2>
+                <ul>
+                    <li>OGGT:24 - <strong class="text-blurple">IMPROVED.</strong> Some lines (borders) removed only on the browser version, some improvements, supports selection menu again and supports all platforms, including MacOS and Linux (thanks <a href="https://betterdiscordlibrary.com/plugins/Emulator" target="_blank">Emulator</a>). <itc class="text-grey">(lol the code reached 4000 lines)</itc></li>
+                    <li>Website - <strong class="text-blurple">IMPROVED.</strong> Improved the tab icon and replaced OCR A font by OCR A Extended.</li>
+                    <li>ADT:291 - <strong class="text-blurple">IMPROVED.</strong> Added compatibility with XenoLib notifications. You should <a href="https://github.com/Tomrdh/discord-addons/tree/master/download-themes-here/AmoledDarkTheme" target="_blank">redownload the theme</a> to modify the background color.</li>
+                    <li>ADTO:192 - <strong class="text-blurple">IMPROVED.</strong> Added compatibility with XenoLib notifications. You should <a href="https://github.com/Tomrdh/discord-addons/tree/master/download-themes-here/AmoledDarkThemeOptimized" target="_blank">redownload the theme</a> to modify the background color.</li>
+                </ul>
+                <h2>2020-10-17</h2>
+                <ul>
+                    <li>Powercord - <strong class="text-green-2">NEW!</strong> You can now use the themes on Powercord! <a href="https://github.com/Tomrdh/discord-addons/tree/master/download-themes-here/powercord" target="_blank"><red-word>See <code class="inline">powercord</code> folder</red-word></a>. If you want to access to this folder later, it's in <a href="https://github.com/Tomrdh/discord-addons/tree/master/download-themes-here"><code class="inline">download-themes-here</code></a>.</li>
+                    <li>OGGT:20 - <strong class="text-yellow">FIXED.</strong> Fix selected DM style in DMs userlist.</li>
+                    <li>BAI:1 - <strong class="text-green-2">NEW!</strong> BlurAccountInfos has replaced BlurEmail! It has more features and is now customizable! <a href="https://github.com/Tomrdh/discord-addons/tree/master/download-themes-here/BlurAccountInfos" target="_blank">Download here!</a></li>
+                    <li>BE:4 - <strong class="text-red">DEAD.</strong> BlurEmail was replaced by BlurAccountInfos, see just above.</li>
+                    <li>ADT:289 - <strong class="text-blurple">IMPROVED.</strong> Supports Server Region Selection.</li>
+                    <li>ADTO:290 - <strong class="text-blurple">IMPROVED.</strong> Supports Server Region Selection.</li>
+                    <li>Website - <strong class="text-blurple">IMPROVED.</strong> A bit improved the 404 page, and updated the theme list in the <a href="themes.html">themes</a> page.</li>
+                </ul>
+            </changelogs>
+            <h2 class="text-animated-blue" id="build-numbers">Build Numbers, Initials and Status for each File</h2>
+            <pre class="board">+-------------------------------------------------------------------------------------------------+
+| FOLDER / NAME                              | INIT.  | B.NUMBER | UP-DATE    | STATUS            |
++--------------------------------------------+--------+----------+------------+-------------------+
+<green-word>| themes / AlwaysDisplayChannelButtons       | ADCB   |        6 | 2020-08-26 | UPDATED           |</green-word>
+<green-word>| themes / AmoledDarkTheme                   | ADT    |      299 | 2020-11-05 | UPDATED           |</green-word>
+<green-word>| themes / AmoledDarkThemeOptimized          | ADTO   |      199 | 2020-11-05 | UPDATED           |</green-word>
+<green-word>| themes / BetterDiscordLightThemeFixer      | BDLTF  |        4 | 2020-07-30 | UPDATED           |</green-word>
+<green-word>| themes / BlurAccountInfos                  | BAI    |        1 | 2020-10-17 | UPDATED           |</green-word>
+<green-word>| themes / CompactChannels                   | CC     |        9 | 2020-08-15 | UPDATED           |</green-word>
+<green-word>| themes / ContextMenusOldStyle              | CMOS   |        5 | 2020-08-10 | UPDATED           |</green-word>
+<green-word>| themes / CustomFont                        | CFFD   |        7 | 2020-10-03 | UPDATED           |</green-word>
+<green-word>| styles / CustomFontForBrowser              | CFFB   |       40 | 2020-10-11 | UPDATED           |</green-word>
+<green-word>| styles / DiepIoDarkNeonTheme               | DIDNT  |        1 | 2020-07-15 | UPDATED           |</green-word>
+<green-word>| da-website / Discord Addons Website        | DA     |       41 | 2020-11-08 | UPDATED           |</green-word><!-- Note for me: When an addon updates, the website doesn't make a new build so do not modify the date just because I'm updating the changelogs. -->
+<green-word>| themes / GreenSpotifyControls              | GSC    |        6 | 2020-08-20 | UPDATED           |</green-word>
+<green-word>| themes / OperaGxGamingTheme                | OGGT   |       51 | 2020-11-07 | UPDATED           |</green-word>
+<green-word>| themes / RemoveNitroTab                    | RNT    |        2 | 2020-07-29 | UPDATED           |</green-word>
+<green-word>| styles / ReversoContextShowBlurredExamples | RCSBE  |        1 | 2020-09-06 | UPDATED           |</green-word>
+<yellow-word>| themes / ServerlistAtBottom                | SAB    |        9 | 2020-08-26 | NEEDS UPDATE      |</yellow-word>
+<green-word>| themes / TextAreaMaxHeightModifier         | TAMHM  |        2 | 2020-08-29 | UPDATED           |</green-word>
+<yellow-word>| tools / ThemeSupport                       | TS     |        3 | 2020-10-23 | NEEDS UPDATE      |</yellow-word>
+<green-word>| themes / TypingAtTopOfChatBox              | TATOCB |        8 | 2020-10-23 | UPDATED           |</green-word>
+<green-word>| themes / UT00_AllUTilities                 | UT00AU |        6 | 2020-11-05 | UPDATED           |</green-word>
+<green-word>| styles / YouTubeBlurEmails                 | YTBE   |        3 | 2020-07-15 | UPDATED           |</green-word>
++-------------------------------------------------------------------------------------------------+</pre> <!-- Never make this kind of boards like me lmao -->
+            <h2 class="text-animated-blue"><strong>Join Discord</strong></h2>
+            <iframe src="https://discordapp.com/widget?id=733110644081033227&theme=dark" width="50%" height="250" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        </bdy>
+        <footer>
+            <strong><a class= "footerlink" href="https://github.com/Tomrdh" target="_blank">My GitHub</a></strong> — 
+            <strong><a class= "footerlink" href="https://github.com/Tomrdh/discord-addons/blob/master/LICENSE.md" target="_blank">License</a></strong> —
+            <strong><a class= "footerlink" href="https://discord.gg/v7ECsqT" target="_blank">Support server</a></strong> —
+            <green>TomRdh#5571</green> —
+            <strong><a class= "footerlink" href="https://github.com/Tomrdh/da-website" target="_blank">Source (website)</a></strong>
+        </footer>
+    </body>
+</html>
