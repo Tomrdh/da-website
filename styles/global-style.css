@@ -361,11 +361,9 @@ button:hover{
     background: var(--blurple);
 }
 /* Unknown tags */
-
 green {
     color: var(--green);
 }
-
 itc, quote {
     font-style: italic;
     font-weight: 300;
