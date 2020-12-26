@@ -329,6 +329,19 @@ button:hover{
     box-shadow: 0 0px 10px 0 #002fff62;
     transition: 500ms;
 }
+#return-to-main-website {
+    color: #bcb;
+    position: absolute;
+    left: 2.5em;
+    top: 1.25em;
+    transition: 400ms ease !important;
+    transition-property: color, opacity !important;
+    opacity: 0.5;
+}
+#return-to-main-website:hover {
+    color: #dfd;
+    opacity: 0.9;
+}
 /* Scrollbar */
 /* Width */
 ::-webkit-scrollbar {
