@@ -241,6 +241,9 @@ strong {
 .text-orange {
     color: var(--orange);
 }
+.text-pink {
+    color: #ff82d9;
+}
 a code {
     cursor: pointer;
 }
