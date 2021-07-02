@@ -59,16 +59,25 @@ body {
 header {
     background: linear-gradient(120deg, var(--hb-color-1), var(--hb-color-2));
     display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 30px;
+}
+header#main-page {
     padding-top: 8vh;
     padding-bottom: 10vh;
     min-height: 82vh;
 }
-header, footer {
+header,
+footer {
     box-shadow: 0 0 0.5em #000000d0;
 }
 li {
     text-align: left;
     margin-top: 0.3em;
+}
+bdyhead *:first-child {
+    margin-top: 20px;
 }
 h1,
 h2,
@@ -94,36 +103,26 @@ img:hover {
 .preview {
     margin-top: 1em;
     margin-bottom: 1.3em;
-    border-radius: 0.5em;
-    width: unset;
-    height: unset;
-    max-width: 30vw;
-    max-height: 30vw;
     margin-left: 2vw;
     margin-right: 2vw;
-    cursor: zoom-in;
-}
-.preview:active {
-    border-radius: 0.3em;
-    max-width: 80vw;
-    max-height: 80vw;
-    cursor: none;
 }
 .preview-changes {
     margin-top: 1em;
     margin-bottom: 1.3em;
+}
+.integration {
     border-radius: 0.5em;
     width: unset;
     height: unset;
-    max-width: 10vw;
-    max-height: 10vw;
+    max-width: 25vw;
+    max-height: 25vw;
     cursor: zoom-in;
 }
-.preview-changes:active {
+.integration:active {
     border-radius: 0.3em;
-    max-width: 75vw;
-    max-height: 75vw;
-    cursor: none
+    max-width: 80vw;
+    max-height: 80vw;
+    cursor: none;
 }
 figcaption {
     text-align: center;
@@ -303,7 +302,7 @@ button:hover{
     background-color: #278cff3d;
 }
 .disabled-button {
-    background-color: #27292c0c;
+    background-color: #3131311f;
     border-color: #ffffff40;
     color: #ffffff80;
     text-shadow: 0 0 0.2em #0f1011;
@@ -311,8 +310,13 @@ button:hover{
     font-family: var(--fonts);
     font-weight: 500;
 }
-.disabled-button:hover {
-    background-color: #27292c1f;
+.disabled-button:hover,
+.disabled-button:focus {
+    background-color: #a80a0a4f;
+}
+.disabled-button:active {
+    transition-duration: 33ms;
+    background-color: #a80a0aa4;
 }
 #first-body-header {
     margin-top: 1.2em;
@@ -332,16 +336,18 @@ button:hover{
     box-shadow: 0 0px 10px 0 #002fff62;
     transition: 500ms;
 }
-#return-to-main-website {
+#go-back {
+    --gb-padding: 30px;
     color: #bcb;
     position: absolute;
-    left: 2.5em;
-    top: 1.25em;
+    left: calc(2.5em - var(--gb-padding));
+    top: calc(1.25em - var(--gb-padding));
     transition: 400ms ease !important;
     transition-property: color, opacity !important;
     opacity: 0.5;
+    padding: var(--gb-padding);
 }
-#return-to-main-website:hover {
+#go-back:hover {
     color: #dfd;
     opacity: 0.9;
 }
